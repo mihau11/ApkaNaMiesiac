@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="111px"
+        android:background="#FF00f0"
+        />
+    <TextView
+        android:text="This is first Activity"
+        android:textSize="25sp"
+        android:padding="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnStartAnotherActivity"
+        android:text="Start Another Activity"
+        android:textColor="#FFF"
+        android:padding="20sp"
+        android:background="#397bb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
