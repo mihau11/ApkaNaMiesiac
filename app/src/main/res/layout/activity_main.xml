@@ -6,23 +6,39 @@
     <Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="111px"
-        android:background="#FF00f0"
+        android:layout_height="169px"
+        android:background="#397bb2"
         />
-    <TextView
-        android:text="This is first Activity"
-        android:textSize="25sp"
+
+    <EditText
+        android:layout_width="500px"
+        android:layout_height="180px"
+        android:layout_marginLeft="270px"
+        android:layout_marginTop="400px"
         android:padding="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:hint="login"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btnStartAnotherActivity"
         android:text="Start Another Activity"
         android:textColor="#FFF"
-        android:padding="20sp"
+        android:layout_marginTop="750px"
+        android:layout_marginLeft="200px"
+        android:padding="10px"
         android:background="#397bb2"
+        android:layout_width="600px"
+        android:layout_height="100px" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600px"
+        android:layout_marginLeft="240px"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="hasło"
+        android:password="true"/>
 
 </FrameLayout>
